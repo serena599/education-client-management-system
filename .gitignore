@@ -1,0 +1,18 @@
+.DS_Store
+
+# Local database credentials
+config/db.php
+
+# Local editor files
+.vscode/
+
+# Runtime uploads generated while using the app
+upload/student_photo/*
+!upload/student_photo/avatar.png
+upload/user_photo/*
+!upload/user_photo/avatar.png
+
+# Logs and temporary files
+*.log
+tmp/
+cache/
